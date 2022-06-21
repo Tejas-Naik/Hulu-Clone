@@ -175,8 +175,20 @@ body {
   font-size: 4.8rem;
 }
 
+.heading-secondary {
+  font-size: 2.4rem;
+}
+
+hr {
+  background-color: white;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* Component/setting classes */
 .mar-bot-sm {
+  margin-bottom: 1.2rem;
 }
 .mar-bot-md {
   margin-bottom: 2.4rem;
@@ -187,4 +199,8 @@ body {
 
 .mar-bot-large {
   margin-bottom: 8.4rem;
+}
+
+.pad-bot-sm {
+  padding-bottom: 1.2rem;
 }

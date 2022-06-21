@@ -18,7 +18,7 @@
   padding: 0 3.2rem;
 }
 
-.logo {
+.logo-main {
   stroke: #1ce783;
   fill: #1ce783;
 }
@@ -87,4 +87,153 @@
   background-image: url("../images/cards/premium-card.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/**********************/
+/* Live TV Section */
+/**********************/
+.section-livetv {
+  background-color: #111;
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.para-desc {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.copyright {
+  color: #999;
+  font-size: 1rem;
+}
+
+/**********************/
+/* Sports Section */
+/**********************/
+
+.container-sports {
+  padding: 12.6rem 0 9.6rem;
+  width: 90rem;
+}
+
+.sports-bg {
+  height: 100vh;
+  background-image: url("../images/sports-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logos {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: #fff;
+}
+
+.logos img {
+  width: 4.8rem;
+}
+
+/* ******************* */
+/* Section Pricing */
+/* ******************* */
+
+.section-pricing {
+  text-align: center;
+  padding: 8rem 0;
+  background: #0b0c0f;
+}
+
+.pricing-brand {
+  text-align: left;
+}
+
+.pricing-brand img {
+  width: 25%;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  justify-items: end;
+}
+
+.pricing-flex {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+
+.plan-headings {
+  display: flex;
+  gap: 4.4rem;
+}
+
+.trial-heading {
+  display: inline-block;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.link-pricing:link,
+.link-pricing:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #111;
+  font-size: 1.6rem;
+  background-color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.3rem;
+  transition: all 0.3s;
+}
+
+.link-pricing:hover,
+.link-pricing:active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.pricing-tag {
+  font-size: 1.6rem;
+  background-color: #1ce783;
+  color: #111;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  font-weight: 500;
+  margin: 1.2rem 0;
+  border-radius: 30px;
+}
+
+.feature-label {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  padding: 2.4rem 0;
+  width: 40%;
+  text-align: left;
+}
+
+.label-values {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.label {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.copytext {
+  text-align: left;
+  padding: 2.4rem 2.4rem 2.4rem 15rem;
 }
