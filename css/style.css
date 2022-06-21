@@ -1,6 +1,6 @@
 .container-small-heading {
   margin: 0 auto;
-  width: 68rem;
+  max-width: 68rem;
 }
 
 .back-image {
@@ -114,7 +114,7 @@
 
 .container-sports {
   padding: 12.6rem 0 9.6rem;
-  width: 90rem;
+  max-width: 90rem;
 }
 
 .sports-bg {

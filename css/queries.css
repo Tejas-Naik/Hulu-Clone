@@ -1,0 +1,61 @@
+@media (max-width: 59em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .pricing-flex {
+    width: 90%;
+  }
+
+  .container-sports {
+    padding: 0 3.2rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
+
+  .btn:link,
+  .btn:visited {
+    width: 28rem;
+  }
+
+  .container-sports {
+    padding-top: 3.2rem;
+  }
+
+  .pricing-flex {
+    flex-direction: column;
+  }
+  .plan-headings {
+    gap: 1.2rem;
+    padding: 1.2rem !important;
+  }
+
+  .feature-label {
+    width: 100%;
+    font-size: 2.4rem;
+  }
+
+  .label {
+    font-size: 2.4rem;
+  }
+
+  .link-pricing:link {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .label-values {
+    width: 100%;
+  }
+
+  .footer-copyright {
+    flex-direction: column;
+  }
+}
