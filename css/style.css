@@ -1,0 +1,33 @@
+.container-hero {
+  margin: 0 auto;
+  width: 68rem;
+}
+
+.back-image {
+  height: 70rem;
+  background-image: url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 0 3.2rem;
+}
+
+.logo {
+  stroke: #1ce783;
+  fill: #1ce783;
+}
+
+.section-hero {
+  text-align: center;
+}
+
+.sponsors {
+  width: 85%;
+  margin-bottom: 3.6rem;
+}

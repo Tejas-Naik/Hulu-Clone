@@ -1,0 +1,169 @@
+/* 
+--- 01. TYPOGRAPHY SYSTEM
+- Font-size system (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 /
+ 30 / 36 / 44 / 52 / 62 / 74 / 
+ 86 / 98
+
+- Font weight: 
+DEFAULT: 400
+MEDIUM: 500
+SEMI-BOLD: 600
+BOLD : 700
+Primary-heading: 700
+
+- Line-height: 
+    Default: 1
+    Heading: 1.05
+    Secondary Heading: 1.2
+    Paragraph: 1.6
+    Large : 1.8
+
+- Letter Spacing:
+  -0.5px
+  0.75px
+
+--- 02. COLORS
+- Primary Color: #1ce783
+- Tints : #fdf2e9  #fae5d3, #eb984e
+- Shades: #cf711f #45260a
+- Grey Color: 
+#888
+#767676
+#6f6f6f;
+#555;
+#333;
+
+
+--- 05. SHADOWS
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06. BORDER-RADIUS
+SMALL : 9PX;
+BIG : 11PX;
+
+--- 07. WHITE SPACE
+- SPACING SYSTEM (px): 
+2 / 4 / 8 / 12 / 16 / 24 / 32 /
+ 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #1ce783;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(28, 231, 131, 0.5);
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Doesnt work on safari */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #a8afbd;
+  font-weight: 500;
+  width: 100%;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #fff;
+  background-color: #666;
+  padding: 0.8rem;
+  border-radius: 9px;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.tag {
+  color: #1ce783;
+  font-weight: 500;
+  font-size: 1.2rem;
+  letter-spacing: 1.2px;
+}
+
+.subheading {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  color: #333;
+  background-color: #1ce783;
+  text-transform: uppercase;
+  width: 62rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 1.2rem 0;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgba(28, 231, 129, 0.5);
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #d6d5d5;
+  border-bottom: solid 1px #d6d5d5;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: solid 1px #777;
+}
+
+/* Component/setting classes */
+.mar-bot-sm {
+}
+.mar-bot-md {
+  margin-bottom: 2.4rem;
+}
+.mar-bot-big {
+  margin-bottom: 3.2rem;
+}
+
+.mar-bot-large {
+  margin-bottom: 8.4rem;
+}
