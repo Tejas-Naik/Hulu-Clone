@@ -1,4 +1,4 @@
-.container-hero {
+.container-small-heading {
   margin: 0 auto;
   width: 68rem;
 }
@@ -30,4 +30,61 @@
 .sponsors {
   width: 85%;
   margin-bottom: 3.6rem;
+}
+/******************************/
+/* SECTION CARDS */
+/******************************/
+.section-cards {
+  background-color: #111;
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.description {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  height: 42rem;
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.show-tag {
+  position: absolute;
+  font-size: 1.2rem;
+  top: 2rem;
+  left: 2rem;
+}
+
+.show-heading {
+  top: 4rem;
+  left: 2rem;
+  position: absolute;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.card-1 {
+  background-image: url("../images/cards/tvshows-card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-2 {
+  background-image: url("../images/cards/movies-card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-3 {
+  background-image: url("../images/cards/original-card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-4 {
+  background-image: url("../images/cards/premium-card.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
